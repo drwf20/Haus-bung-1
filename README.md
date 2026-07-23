@@ -58,4 +58,27 @@ Dieses Thema benötigt keine API und erfüllt die Anforderungen der Hausübung.
 Um die App zu starten:cd dashboard_app
 flutter run
 
+## App
+Name der App: calculator_app
+
+## Hosting
+Plattform: Firebase Hosting
+
+## Öffentliche URL
+https: https://flutter-web-app-e01a2.web.app
+
+## Lokaler Start
+
+```bash
+flutter pub get
+flutter run -d chrome
+```
+
+## Deployment
+
+```bash
+flutter build web
+firebase deploy
+```
+Die App wurde mit `flutter build web` erstellt und anschließend mit Firebase Hosting veröffentlicht.
 
